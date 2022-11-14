@@ -10,7 +10,7 @@ license = "MIT"
 edition = "2021"
 
 [dependencies]
-naga = { git = "https://github.com/gfx-rs/naga", rev = "b209d911", features = ["clone"] }
+naga = { git = "https://github.com/gfx-rs/naga", features = ["clone"] }
 wgpu = { git = "https://github.com/gfx-rs/wgpu", features = ["glsl"] }
 
 [dev-dependencies]
