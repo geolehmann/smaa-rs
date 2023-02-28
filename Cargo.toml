@@ -11,7 +11,7 @@ edition = "2021"
 
 [dependencies]
 naga = { git = "https://github.com/gfx-rs/naga", rev = "e7fc8e6", features = ["clone"] }
-wgpu = { git = "https://github.com/gfx-rs/wgpu", features = ["glsl"] }
+wgpu = { version = "0.15.0", features = ["glsl"] }
 
 [dev-dependencies]
 winit = "0.26"
